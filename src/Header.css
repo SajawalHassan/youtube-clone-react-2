@@ -1,40 +1,44 @@
 .header {
   color: white;
+}
+
+.header__top {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   padding: 10px;
+  border-bottom: 1px solid rgb(87, 87, 87);
 }
 
-.header__left {
+.header__topLeft {
   display: flex;
   align-items: center;
 }
 
-.header__leftLogo {
+.header__topLeftLogo {
   display: flex;
   align-items: center;
   margin-left: 10px;
 }
 
-.header__left > .header__leftIconMenu {
+.header__topLeft > .header__topleftIconMenu > .MuiSvgIcon-root {
   color: gray;
   padding: 5px;
   cursor: pointer;
 }
 
-.header__left > .header__leftIconMenu:hover {
+.header__topLeft > .header__topleftIconMenu > .MuiSvgIcon-root:hover {
   background-color: rgb(165, 165, 165);
   border-radius: 999px;
 }
 
-.header__middle {
+.header__topMiddle {
   display: flex;
   align-items: center;
   border: 1px solid gray;
 }
 
-.header__middle > input {
+.header__topMiddle > input {
   background-color: transparent;
   border: none;
   width: 120px;
@@ -43,7 +47,7 @@
   outline-width: 0;
 }
 
-.header__middle > .MuiSvgIcon-root {
+.header__topMiddle > .MuiSvgIcon-root {
   border-left: 1px solid gray;
   padding: 1px;
   padding-left: 5px;
@@ -52,33 +56,64 @@
   color: gray;
 }
 
-.header__middle > .MuiSvgIcon-root:hover {
+.header__topMiddle > .MuiSvgIcon-root:hover {
   color: lightgray;
 }
 
-.header__right {
+.header__topRight {
   display: flex;
   align-items: center;
 }
 
-.header__right > .MuiSvgIcon-root {
+.header__topRight > .MuiSvgIcon-root {
   font-size: 20px;
   padding: 5px;
 }
 
-.header__right > .MuiSvgIcon-root:hover {
+.header__topRight > .MuiSvgIcon-root:hover {
   background-color: rgb(133, 133, 133);
   border-radius: 999px;
   cursor: pointer;
 }
 
-.header__right > .header__rightAvatar {
+.header__topRight > .header__topRightAvatar {
   height: 30px;
   width: 30px;
   cursor: pointer;
   margin-left: 10px;
 }
 
-.header__right > .header__rightAvatar:hover {
+.header__topRight > .header__topRightAvatar:hover {
   background-color: rgb(133, 133, 133);
+}
+
+.header__bottom {
+  padding: 10px;
+  border-bottom: 1px solid gray;
+}
+
+.header__bottomTags {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  width: 470px;
+  margin-left: 10px;
+}
+
+.header__bottomTag {
+  margin-left: 10px;
+  padding: 3px 15px;
+  background-color: gray;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.header__bottomTag:hover {
+  background-color: rgb(109, 109, 109);
+  transition: background-color 500ms;
+}
+
+.active {
+  background-color: lightgray;
+  color: black;
 }
