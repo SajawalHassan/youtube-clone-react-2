@@ -1,0 +1,19 @@
+.video {
+  background-color: #181818;
+}
+
+.video__sectionTop {
+  display: grid;
+  grid-template-columns: 240px 240px;
+  justify-content: center;
+  border-bottom: 3px solid rgb(87, 87, 87);
+  padding-bottom: 20px;
+}
+
+.video__sectionMiddle {
+  display: grid;
+  grid-template-columns: 240px 240px;
+  justify-content: center;
+  border-bottom: 1px solid gray;
+  padding-bottom: 20px;
+}

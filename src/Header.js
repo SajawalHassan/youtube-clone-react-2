@@ -9,7 +9,7 @@ import VideoCallIcon from "@material-ui/icons/VideoCall";
 import AppsIcon from "@material-ui/icons/Apps";
 import NotificationsIcon from "@material-ui/icons/Notifications";
 
-import { Avatar, Button } from "@material-ui/core";
+import { Avatar } from "@material-ui/core";
 
 function Header() {
   return (
@@ -20,7 +20,7 @@ function Header() {
             <MenuIcon />
           </div>
           <div className="header__topLeftLogo">
-            <img src={YoutubeLogo} alt="" />
+            <img title="Youtube Home" src={YoutubeLogo} alt="" />
           </div>
         </div>
 
@@ -41,6 +41,34 @@ function Header() {
       <div className="header__bottom">
         <div className="header__bottomTags">
           <div className="header__bottomTag active">
+            <p>All</p>
+          </div>
+
+          <div className="header__bottomTag">
+            <p>All</p>
+          </div>
+
+          <div className="header__bottomTag">
+            <p>All</p>
+          </div>
+
+          <div className="header__bottomTag">
+            <p>All</p>
+          </div>
+
+          <div className="header__bottomTag">
+            <p>All</p>
+          </div>
+
+          <div className="header__bottomTag">
+            <p>All</p>
+          </div>
+
+          <div className="header__bottomTag">
+            <p>All</p>
+          </div>
+
+          <div className="header__bottomTag">
             <p>All</p>
           </div>
 
