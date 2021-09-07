@@ -4,5 +4,11 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  flex: 0.9;
+  flex: 0.85;
+}
+
+@media (max-width: 865px) {
+  .video {
+    flex: 1;
+  }
 }
