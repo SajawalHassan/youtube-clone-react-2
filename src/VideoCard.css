@@ -2,11 +2,14 @@
   color: white;
   margin-left: 10px;
   margin-top: 20px;
+  margin-bottom: 20px;
   cursor: pointer;
 }
 
 .videoCard__top > img {
-  position: relative;
+  object-fit: contain;
+  height: 133px;
+  background-color: gray;
 }
 
 .videoCard__middle {

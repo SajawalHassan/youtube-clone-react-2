@@ -1,18 +1,25 @@
 .sidebar {
-  flex: 0.15;
   color: white;
   background-color: #202020;
-  padding-right: 2px;
-  border-right: 2px solid gray;
   font-size: 12px;
+  height: max-content;
+  flex: 0.15;
+  font-family: "Roboto", sans-serif;
+  position: -webkit-sticky;
+  overflow-y: scroll;
+  height: calc(100vh - 100px);
+  padding: 10px 0;
 }
 
 .border {
   border: 1px solid gray;
 }
 
-.sidebar__top {
+.sidebar > h4 {
+  margin-left: 25px;
+  font-size: 12px;
   padding: 10px 0;
+  color: gray;
 }
 
 .sidebar__Option {
@@ -23,6 +30,7 @@
 
 .sidebar__Option > .MuiSvgIcon-root {
   font-size: 20px !important;
+  color: lightgray !important;
 }
 
 .sidebar__Option:hover {
@@ -30,32 +38,33 @@
   cursor: pointer;
 }
 
-.sidebar__active {
-  background-color: rgb(75, 75, 75);
-}
-
-.sidebar__middle {
-  padding: 10px 0;
-}
-
-.sidebar__bottom {
-  padding: 10px 0;
-}
-
-.sidebar__bottom > h4 {
-  margin-left: 25px;
-  font-size: 15px;
-  padding: 10px 0;
-  color: gray;
-}
-
-.sidebar__bottom > .sidebar__Option > img {
+.sidebar > .sidebar__Option > img {
   object-fit: contain;
   height: 20px;
   border-radius: 999px;
 }
 
-@media (max-width: 765px) {
+.sidebar__active {
+  background-color: rgb(75, 75, 75);
+}
+
+.last {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1090px) {
+  .sidebar {
+    flex: 0.2;
+  }
+}
+
+@media (max-width: 836px) {
+  .sidebar {
+    flex: 0.3;
+  }
+}
+
+@media (max-width: 770px) {
   .sidebar {
     display: none;
   }
