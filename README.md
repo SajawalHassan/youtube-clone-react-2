@@ -1,13 +1,21 @@
-# Another Youtube clone
-# project URL: (https://youtube-clone-1f12.vercel.app/)
+# Another Youtube Clone
 
-made react app using npm
-```
-npx create-react-app
-```
+Another youtube clone which is fully responsive.
+NOTE! THIS PROJECT IS FOR PRACTICE
 
-Librarys/Packeges/API
-```
-Packeges:
-       Matirial-ui
-```
+Demo project: (https://youtube-clone-1f12.web.app/)
+
+# Installation:
+   - clone project
+   - install npm: ```npm i```
+
+# Usage:
+    ```
+    Usage: App.js [OPTIONS]
+
+    Another youtube clone which is fully responsive.
+    Developed by Sajawal Hassan -> (Github: SajawalHassan)
+    ```
+    
+# How to Contribute
+Clone repo and create a new branch: ```$ git checkout https://github.com/SajawalHassan/youtube-clone-react-2 -b name_for_new_branch.```
